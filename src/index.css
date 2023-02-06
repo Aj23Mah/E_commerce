@@ -1,13 +1,69 @@
-body {
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+h2 {
+  font-size: 2rem;
+  font-family: 'Work Sans', sans-serif;
+}
+span{
+  font-size: 1.4rem;
+  margin: 1rem 0 2.4rem 0;
+  line-height: 1.8rem;
+  color: #212121;
+  font-weight: 400;
+  font-family: "Source Serif Pro", serif;
+}
+.input-box {
+  border: 1px solid #212121;
+  border-radius: 10px 5px 10px 5px;
+  padding: 5px 5px;
+  margin: 10px 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  margin: 5rem;
+}
+
+.modal-wrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background-color: rgba(189, 189, 189, 0.6);
+}
+.modal-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 30rem;
+  background-color: rgb(214, 217, 237);
+  border-radius: 0.5rem;
+  padding: 2rem 3rem;
+  text-align: center;
+}
+.modal-btn {
+  padding: 0.4rem 1.2rem;
+  font-size: 1.4rem;
+  border: none;
+  border-radius: 10px 20px 10px 20px;
+  background-color: #212121;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Work Snas", sans-serif;
+  transform: scale(0.9);
+  margin: 5px;
+}
+.modal-btn i {
+  padding: 0 5px;
+}
+.modal-btn:hover {
+  background-color: #fff;
+  color: #212121;
+  border: #0E253E;
+  transform: scale(1);
+  transition: all 0.1s;
 }

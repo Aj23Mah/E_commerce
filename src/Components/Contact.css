@@ -1,0 +1,61 @@
+.contact{
+    width: 100%;
+    height: auto;
+    background: linear-gradient(rgba(33,33,33,0.7), rgba(33,33,33,0.7)), url(https://imgs.search.brave.com/Kxu5rmXChwhrGtlJsooVcxv_eMJ5PAbAvD3B50Jix80/rs:fit:1170:400:1/g:ce/aHR0cHM6Ly93d3cu/aHVtYW5lbmRlYXZv/dXIuaW4vd3AtY29u/dGVudC91cGxvYWRz/LzIwMjEvMDIvY29u/dGFjdC1iYW5uZXIu/anBn);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0;
+    
+}
+/* .contact_img img{
+    width: 100%;
+    height: 70vh;
+} */
+.contact .title{
+    font-size: 30px;
+    font-family: 'Segoe UI', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    margin: 10px;
+    padding: 10px 10px;
+}
+.contact_container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 50px 50px;
+    margin: 5px 10px;
+    padding: 20px 20px;
+}
+.contact_container span{
+    font-size: 20px;
+    font-family: 'Segoe UI', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px 10px;
+    color: #fff;
+    float: left;
+}
+.contact_container input{
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px 10px;
+    font-size: 20px;
+    margin: 10px 10px;
+}
+.contact_container button{
+    padding: 10px 20px;
+    margin: 10px 10px;
+    border: none;
+    border-radius: 10px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #212121;
+}
+.contact_container button:hover{
+    color: #212121;
+    background-color: #fff;
+}

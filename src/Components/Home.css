@@ -1,0 +1,54 @@
+video {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute; 
+    z-index: -1;
+}
+
+.home-container {
+    /* background: url('image/img-home.jpg') center center/cover no-repeat; */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    justify-content: center;
+    color: #fff;
+    font-family: "Work Snas", sans-serif;
+}
+.home-container > h1{
+    font-size: 60px;
+    margin: 10px 10px;
+}
+.home-container > p{
+    font-size: 32px;
+    margin: 10px 10px;
+}
+.home-btns .btns{
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    padding: 10px 10px;
+    margin: 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: "Work Snas", sans-serif;
+}
+.home-btns .btns:hover{
+    background-color: #fff;
+    color: #0E253E;
+    cursor: pointer;
+}
+
+@media screen and (max-width:850px){
+    .home-container{
+        text-align: center;
+        padding: 4rem 2 rem;
+        font-size: auto;
+    }
+}
